@@ -14,8 +14,10 @@ expect(()=> add ('2', 3)).toThrow('add expects two numbers');
    });
 });
 
-describe('divide',()=> {
-    expect(divide(6,2)).toBe(3);
+describe('divide', () => {
+    it('divides two numbers', () => {
+        expect(divide(6, 2)).toBe(3);
+    });
 });
 // Negative tests
 it('throws when inputs are not numbers', () => {

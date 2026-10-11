@@ -1,4 +1,4 @@
-import { divide } from './calculator.js';
-let result = divide(2,1);
-console.log(result)
-console.log(typeof(NaN))
+import { add } from './calculator.js';
+
+const result = add(1, 1);
+console.log(result);
